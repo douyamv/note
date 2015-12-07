@@ -1,0 +1,22 @@
+       QTimer *timer31= new QTimer(this);       //by  douya
+             connect(timer31, SIGNAL(timeout()),this,SLOT(restoreDB()));
+             timer31->start(60*1000);
+             
+             void Widget::restoreDB(){
+
+
+
+    QSqlDatabase data_base = QSqlDatabase::addDatabase("QSQLITE");
+    data_base.setlDatabaseName("qdg.db");
+            if(!data_base.open())
+                qDebug()<<"douya: failed to connect to ";
+            else
+            {
+                qDebug()<<"douya:success";
+            }
+     QSqlQuery query(data_base);
+     query.exec(QString("delete from   sys_log where logid not in  (select logid  from sys_log order by time desc limit 8000 );"));
+     qDebug()<<"douya:ok";
+
+
+}
