@@ -1,0 +1,31 @@
+DBPEDIA_ID/Earthquake  Available
+DBPEDIA_ID/Vanilla_Ice  Available
+DBPEDIA_ID/Peter_Langdon_Ward  NOT Available 
+DBPEDIA_ID/John_J._Clague  NOT Available
+DBPEDIA_ID/EQ  NOT Available 
+DBPEDIA_ID/Earthquake_(disambiguation)  NOT Available
+DBPEDIA_ID/Quake  NOT Available
+DBPEDIA_ID/Causes_of_earthquakes  NOT Available
+DBPEDIA_ID/Earth_quake  NOT Available
+DBPEDIA_ID/Earth_quakes  NOT Available
+DBPEDIA_ID/Earth_tremor  NOT Available
+DBPEDIA_ID/Earthquakes  NOT Available
+DBPEDIA_ID/Earthshake  NOT Available
+DBPEDIA_ID/Low-magnitude_earthquake  NOT Available
+DBPEDIA_ID/Main_shock  NOT Available
+DBPEDIA_ID/Quake_weapons  NOT Available
+DBPEDIA_ID/Seism  NOT Available
+DBPEDIA_ID/Seismic_activity NOT Available
+DBPEDIA_ID/Seismic_event  NOT Available
+DBPEDIA_ID/Seismic_movement  NOT Available
+DBPEDIA_ID/Seismically_active  NOT Available
+DBPEDIA_ID/Seismicity  NOT Available
+DBPEDIA_ID/Site_effects_(earthquake)  NOT Available
+DBPEDIA_ID/Speedjump  NOT Available
+DBPEDIA_ID/Tectonic_earthquake  NOT Available
+DBPEDIA_ID/The_kinds_of_earthquakes  NOT Available
+DBPEDIA_ID/地震  NOT Available SyntaxError: Non-ASCII character
+DBPEDIA_ID/Victoria_State_Emergency_Service  NOT Available
+DBPEDIA_ID/List_of_Lopez_Tonight_episodes  NOT Available
+DBPEDIA_ID/Wellington  Available
+DBPEDIA_ID/2010_Chile_earthquake  Available  
