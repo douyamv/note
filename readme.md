@@ -1,3 +1,4 @@
+[![Build Status](https://img.shields.io/travis/xcatliu/pagic.svg)](https://travis-ci.org/xcatliu/pagic)
 #个人笔记
 #每天必看 每天进步一点点
 ##php学习
