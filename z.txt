@@ -1,0 +1,58 @@
+package ztetest;
+
+import java.util.Scanner;
+
+public class aaa {
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		
+		int gen=scanner.nextInt();
+		int size=scanner.nextInt();
+		int diff=getWhite(size,gen)-getBlack(size,gen);
+		System.out.println(Math.abs(diff%10007));
+	}
+	
+	static int getWhite(int size,int gen)
+	{
+		
+		
+		int [][] map1=new int[gen+1][];
+		for(int i=0;i<=gen;++i)
+		{
+			map1[i]=new int[3];
+		}
+		map1[0][0]=0; //即将死去
+		map1[0][1]=0;
+		map1[0][2]=size; 
+		for(int i=1;i<=gen;i++)
+		{
+			map1[i][0]=map1[i-1][1];
+			map1[i][1]=map1[i-1][2];
+			map1[i][2]=3*map1[i-1][1]+2*map1[i-1][2]%10007;
+		}
+		int ans=(map1[gen][0]+map1[gen][1]+map1[gen][2])%10007;
+		//System.out.println(ans);
+		return ans;
+	}
+	
+	static int getBlack(int size,int gen)
+	{
+		
+		
+		int [][] map1=new int[gen+1][];
+		for(int i=0;i<=gen;++i)
+		{
+			map1[i]=new int[3];
+		}
+		map1[0][0]=0; //即将死去
+		map1[0][1]=size;
+		for(int i=1;i<=gen;i++)
+		{
+			map1[i][0]=map1[i-1][1];
+			map1[i][1]=3*map1[i-1][1];
+		}
+		int ans=(map1[gen][0]+map1[gen][1])%10007;
+		//System.out.println(ans);
+		return ans;
+	}
+}
