@@ -1,15 +1,16 @@
 package ztetest;
-
-import java.util.Scanner;
-
-public class aaa {
-	public static void main(String[] args) {
-		Scanner scanner=new Scanner(System.in);
+class Solution
+{
+    // METHOD SIGNATURE BEGINS, THIS METHOD IS REQUIRED
+    public int populationDifference(int years, int initialRats)
+    {
+ 
 		
-		int gen=scanner.nextInt();
-		int size=scanner.nextInt();
+		int gen=years;
+		int size=initialRats;
 		int diff=getWhite(size,gen)-getBlack(size,gen);
-		System.out.println(Math.abs(diff%10007));
+		
+		return diff;
 	}
 	
 	static int getWhite(int size,int gen)
